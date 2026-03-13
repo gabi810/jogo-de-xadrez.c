@@ -8,8 +8,8 @@
 // Funções recursivas (Nível Mestre)
 void moverbispo(int passos) {
     if(passos == 0) return;
-    printf("Cima\n");
-    printf("Direita\n");
+    printf("cima\n");
+    printf("direita\n");
     moverbispo(passos - 1);
 }
 
@@ -59,7 +59,7 @@ int main() {
                 printf("\nmovimento da rainha:\n");
                 i = 0;
                 do {
-                    printf("rsquerda\n");
+                    printf("esquerda\n");
                     i++;
                 } while(i < rainha_passos);
                 break;
